@@ -9,6 +9,6 @@ Micah Thornton, Fanchen Zhand, and Jennifer Dworak.
 This paper was created on grant funding from the Semiconductor Research Corporation (SRC) and was funded under task ID 2465.001 The authors would like to thank all of our industrial liasons for their support of this project. 
 ## Copyright
 
-&Copy; *Micah Andrew Thornton, Fanchen Zhang, Jennifer Dworak* **2015**
+Copyright. *Micah Andrew Thornton, Fanchen Zhang, Jennifer Dworak* **2015**
 
  The authors trust in the academic integrity of those in the online academic community, and will persecute any detected violations to the fullest extent of the law. Please be honest, give credit where it is due, we spent a significant time on this work, do not copy this.
