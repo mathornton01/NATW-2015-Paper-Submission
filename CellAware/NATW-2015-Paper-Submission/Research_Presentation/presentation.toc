@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Cell-Aware-Type Faults}{19}{0}{1}
+\beamer@subsectionintoc {1}{2}{Cell Aware Type Example}{25}{0}{1}
+\beamer@subsectionintoc {1}{4}{Functional Simulation}{38}{0}{1}
+\beamer@subsectionintoc {1}{5}{Motivation}{46}{0}{1}
+\beamer@sectionintoc {2}{Experiment}{49}{0}{2}
+\beamer@subsectionintoc {2}{1}{Cell-Aware-Type UDFM Generation}{53}{0}{2}
+\beamer@subsectionintoc {2}{2}{Mandatory Condition Extraction}{55}{0}{2}
+\beamer@subsectionintoc {2}{3}{Circuit Goodstate Extraction Functional Simulation}{66}{0}{2}
+\beamer@subsectionintoc {2}{4}{Mandatory Counts During Functional Simulation}{72}{0}{2}
+\beamer@sectionintoc {3}{Results \& Analysis}{79}{0}{3}
+\beamer@subsectionintoc {3}{1}{Mandatory Counts as Fault Classifiers}{80}{0}{3}
+\beamer@subsectionintoc {3}{2}{Regression Analysis}{82}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{84}{0}{4}
+\beamer@sectionintoc {5}{Acknowledgement}{90}{0}{5}

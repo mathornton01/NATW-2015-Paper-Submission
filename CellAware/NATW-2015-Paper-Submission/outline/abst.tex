@@ -1,0 +1,11 @@
+    \begin{comment}
+
+    This paper outlines our current progress in the search for intelligent targeting methods for a class of faults known as ``Cell-Aware Type Faults''. We begin with a brief introduction to cell-aware faults and a description of how they differ from the cell-aware type faults that we are examining in this endeavor. We then describe our over-arching research goal: To find an attribute that can predict whether or not cell-aware faults can cause serious problems during functional usage. We then present our research methodology beginning with the generation of a describing-fault-model for cell-aware type faults, and an analysis of potential attributes that can be used to classify and characterize cell-aware type faults. Our findings are discussed, and the respective benefits to manufacturing test are discussed.
+
+
+    \end{comment}
+
+    The ``Cell-Aware'' fault model does an excellent job of expressing potential in-gate defects. Unfortunately some circuits contain too many potential cell-aware faults to test for with the limited resources available to test engineers. To avoid detailed analog modeling, and fault extraction we modeled cell-aware faults using a methodology wherein stuck-at ATPG was the primary fault modeling procedure used.  We differentiate these faults from their analog counterparts by deeming them ``Cell-Aware-\textit{Type}'' faults
+    To determine the most important faults to target, we extracted the ``mandatory conditions'' for detection for each potential fault in two test circuits, and performed functional simulation to determine how many times these mandatory conditions were met.
+    We then analyzed the correlation between mandatory condition counts for faults, and the corresponding faults detection during goodstate simulation. 
+    Our results include the discovery that mandatory conditions are a good predictor of a fault's relative importance in a circuit whose intended function is known, provided that the potential state space is sufficiently explored during functional operation. 

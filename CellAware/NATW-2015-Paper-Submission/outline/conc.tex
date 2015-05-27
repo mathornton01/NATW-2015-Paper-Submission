@@ -1,0 +1,23 @@
+    \begin{comment}
+
+    The prediction of fault importance will drastically shift the focus of most ATPG tools to allow for custom fault coverage levels. Another interesting possible application of this research is in regards to the estimation of fault coverage for parts of the circuit that are not tested using scan, but simply functional patterns. This latter application can apply to really any type of fault model not just cell-aware faults. In future work we plan to test the viability of this, and to also put safety bounds on how long we should run functional simulation, as well as testing this theory on other circuits and more extensively.  
+
+    \end{comment}
+
+    The cell-aware fault model is excellent at describing faults that could occur within standard cells. 
+    But there is a very large number of cell aware faults in any one given circuit. 
+    In order to more efficiently allocate testing resources during test, functional simulation with mandatory condition counters can be performed before hand. 
+    This allows the tests engineers to more effectively target only those faults that are the most probable to cause errors during functional use. 
+    The results of this paper also have some potential applications in intelligent speed-binning techniques. 
+    To elaborate, you could test for wider and wider scopes of functionality, and speed-bin circuits more intelligently. 
+    There are also potential applications of this methodology to artificially intelegent testing systems. 
+    The results of this research are applicable to many different testing methodologies, and should not be restrictively thought of as cell-aware specific. 
+    There is still much work to do in this area.
+    We will likely proceed to test more circuits, and perform similar analysis.
+    This will allow us to pinpoint more precisely what kinds of circuits these techniques are most effective against. 
+
+
+    Using mandatory conditions for functional fault prediction has a wide variety of applications. 
+    We presented the proper background material, and exhaustively detailed our proceedure as to make it easily repeatable. 
+    We provided examples of mandatory condition calculations, and showed how they could be used to predict whether or not a cell-aware fault is functional.
+    

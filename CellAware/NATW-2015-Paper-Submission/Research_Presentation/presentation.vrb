@@ -1,0 +1,20 @@
+\frametitle{Cell-Aware-Type UDFM Generation}
+\lstset{breaklines=true, basicstyle=\ttfamily\scriptsize}\vspace{-1em}
+\begin{lstlisting}[frame=single]
+
+        Cell ( "FADDX1" ) {
+            Fault ( "FADDX1_i000_o1" ){
+                Test {
+                        StaticFault { "S" : 1; }
+                        Conditions { "A" : 0; "B": 0; "CI": 0;}
+                                }
+                        }
+            Fault ( "FADDX1_i000_o1" ) {
+                Test {
+                        StaticFault { "CO" : 1; }
+                        Conditions { "A" : 0; "B": 0; "CI": 0;}
+                                }
+                        }
+                }
+\end{lstlisting}
+
